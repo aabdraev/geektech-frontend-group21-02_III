@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+.wrapper .form {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailInput,
+#passwordInput {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #454545;
+    border-radius: 5px;
+    outline: none;
+}
+
+.pass_visibility {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 280px;
+    height: 25px;
+    border: 1px solid #232323 ;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #284b63;
+    cursor: pointer;
+}
