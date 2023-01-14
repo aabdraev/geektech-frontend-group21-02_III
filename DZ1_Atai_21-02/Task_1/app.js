@@ -4,8 +4,8 @@ const loginResult = document.querySelector(".loginResult");
 const loginCheck = document.querySelector(".loginCheck");
 const showPassword = document.querySelector("#showPassword");
 
-const regExpEmail = /^[\w+@(\w+\.)+com|ru|info.{0,25}]$/;
-const regExpPassword = /^(?=.*\d)(?=.*[a-z]).{4,8}$/;
+const regExpEmail = /^[\w+@(\w+\.)+com|ru|info]{0,25}$/;
+const regExpPassword = /^(?=.*\d)(?=.*[a-z]).{4,20}$/;
 
 loginCheck.addEventListener("click", () => {
     if (
