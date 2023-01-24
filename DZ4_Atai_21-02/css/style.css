@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+.header {
+    width: 100vw;
+    background-color: #13315c;
+}
+
+.header__inner h1 {
+    padding: 10px;
+    color: #fffffb;
+    text-align: center;
+}
+
+.main_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+}
+
+.main_info_item {
+    width: 1000px;
+    background-color: #a9a9a9;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.main_info_item p {
+    padding: 5px;
+}
