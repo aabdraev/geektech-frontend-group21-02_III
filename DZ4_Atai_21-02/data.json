@@ -1,0 +1,22 @@
+[
+{
+    "Serial_Number": "CT-7567",
+    "Nickname": "Rex",
+    "URL": "images/rex.png"
+},
+{
+    "Serial_Number": "CT-5555",
+    "Nickname": "Fives",
+    "URL": "images/fives.png"
+},
+{
+    "Serial_Number": "CT-1409",
+    "Nickname": "Echo",
+    "URL": "images/echo.png"
+},
+{
+    "Serial_Number": "CT-9415",
+    "Nickname": "Hardcase",
+    "URL": "images/hardcase.png"
+}
+]
